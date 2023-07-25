@@ -2,7 +2,6 @@ import React from 'react'
 import Logo from '../img/logo.png'
 import './LogoSearch.css'
 import {UilSearch} from '@iconscout/react-unicons'
-import Profilecard from './ProfileCard/Profilecard'
 const LogoSearch = () => {
   return (
     <div className="LogoSearch">
@@ -12,6 +11,7 @@ const LogoSearch = () => {
             <input type="text" placeholder='#Explore ' />
             <div className="s-icon">
                 <UilSearch/>
+                
             </div>
         </div>
     </div>
