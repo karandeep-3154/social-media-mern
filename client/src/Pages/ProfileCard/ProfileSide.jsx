@@ -1,8 +1,8 @@
 import React from "react";
 import './ProfileSide.css'
 import LogoSearch from "./LogoSearch";
-import Profilecard from "./ProfileCard/Profilecard";
-import FollowersCard from "./ProfileCard/FollowersCard/FollowersCard";
+import Profilecard from "./Profilecard";
+import FollowersCard from "./FollowersCard/FollowersCard";
 const ProfileSide = () => {
   return (
     <div className="ProfileSide">
