@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import ProfileSide from "./ProfileCard/ProfileSide.jsx";
+import ProfileSide from "./ProfileSide/ProfileSide.jsx";
 const Home = () => {
   return (
     <div className="Home">
